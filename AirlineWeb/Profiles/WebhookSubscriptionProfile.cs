@@ -4,11 +4,11 @@ using AirlineWeb.Models;
 
 namespace AirlineWeb.Profiles
 {
-    public class WebhookSubscriptionProfile: Profile
+    public class WebhookSubscriptionProfile : Profile
     {
         public WebhookSubscriptionProfile()
         {
-           CreateMap<WebhookSubscriptionCreateDto, WebhookSubscription>();
+            CreateMap<WebhookSubscriptionCreateDto, WebhookSubscription>();
             CreateMap<WebhookSubscription, WebhookSubscriptionReadDto>();
         }
     }
